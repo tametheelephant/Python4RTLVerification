@@ -1,5 +1,5 @@
 check:
-	../combine_results.py
+	python3 ../combine_results.py
 
 cleanall: check clean
 	@rm -rf __pycache__
